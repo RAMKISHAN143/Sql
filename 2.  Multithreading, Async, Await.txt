@@ -1,0 +1,26 @@
+<<<------------------------------ Multithreading, Async, Await ----------------------------------------->>>
+
+https://www.youtube.com/watch?v=Fzckqczmgd0
+
+## Synchronous Call or Single Thread:
+ -- By default, 1 Action at a time, One by one Methods get executed. Dependency Exists, Lots of Time takes.
+
+## Asynchronous Call (Async) or Multi Thread :
+ -- Many Actions at a time, All Methods get executed Simultaneously or Parallelly. No Dependency. Fast.
+ -- Thread is a Process. 1 Thread means 1 Method is getting Executed.
+ -- Foreground threads are those threads that keep running even after the application quits.
+ -- Background threads are those threads that will quits after the application exits quits.
+ 
+ -- In Synchronous Programming, at a time Only 1 Method get executed, one by one Action. Slow.
+    Page working and user interaction will stop until browser receives response from server. Bad.
+    
+ -- In Asynchronous Programming, at a time Many Methods get executed, Many Actions at a time. Fast.
+    Page working and user interaction will Work Normally & It doesn't depend on Response from Server. Good.
+   
+ -- Asynchronous programming is very popular. It is done with the help of the async and await keywords.
+    async keyword turns method into async method. which allows you to use the await keyword in its body.
+    await means wait until the task is completed.
+
+ -- We use async keyword with Method Declaration and await Task.Run( () => {our Logic} ); inside Method. 
+
+<<<---------------------------------------------------------------------------------------------------->>>

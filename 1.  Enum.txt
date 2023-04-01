@@ -1,0 +1,30 @@
+<<<------------------------------------------ Enum ---------------------------------------------------->>>
+
+## Inside namespace :
+ -- Nested namespace
+ -- Classes, Abstract classes, Static Classes.
+ -- Interfaces
+ -- Enums
+ -- Delegates
+ -- Structs
+
+ <<<---------------------------------------------------------------------------------------------------->>>
+
+## Enum :
+ -- Enum is a value type. Enum means Enumerations.
+ -- We use enum to replace integral constants.
+ -- Enum provides us better readability & maintainability.
+ -- "enum" keyword we use to create enum.
+
+ # Enum class :
+  -- This class we can use to find information about any enum.
+	 Ex. if we want to know underlying type or values or names of enum.
+  -- By default enum underlying type is int but we can customize it.
+
+  -- When we say enum it means we have names and values also.
+	 Ex. Male it is name and there should be some integral value 1 associated with it.
+
+  ==> When to use =>  Gender(Male or Female), Grade(A,B,C,D), Season(Summer,Rain,Winter), etc.
+	                  When we have to select from fix given list values of field.
+
+<<<---------------------------------------------------------------------------------------------------->>>
